@@ -1,0 +1,62 @@
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Aula_Magna_Stockholm_Oct_2008.jpg/1200px-Aula_Magna_Stockholm_Oct_2008.jpg);
+    background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height:100vh;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, #names{
+  color:whitesmoke;
+  padding-left: 15px;
+}
+
+.removeButton{
+  height: 25px;
+  width: 60px;
+  border-right: 4px;
+  border-left: 4px;
+  border-top: 3px;
+  border-radius: 8px;
+  background-color: red;
+  margin-top: 2px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  
+}
+.removeButton:hover{
+  padding: 2px;
+  border-bottom: 3px;
+}
+ul{
+  list-style-type: none ;
+  font-weight: 600;
+  font-size: large;
+  align-items: grip;
+}
+#inputName{
+  height: 20pt;
+  width: auto; font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.container{
+  position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89) 
+}
+
+.clickable{
+  cursor: pointer;
+}
